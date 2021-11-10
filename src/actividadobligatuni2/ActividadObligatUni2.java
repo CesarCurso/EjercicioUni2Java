@@ -27,7 +27,7 @@ public class ActividadObligatUni2 {
 	            {System.out.println("Error!! SOLO INGRESE NUMEROS POSITIVOS ENTEROS MAYORES A CERO Y MENORES A 120" );
 	            entero = false;
                }   
-        }//fin del while  
+        }//fin del while
         System.out.println(" Ingrese su hobbie:");
         String hobi=dato.nextLine();
         System.out.println("Ingrese su editor de código preferido:");
@@ -35,6 +35,7 @@ public class ActividadObligatUni2 {
         System.out.println("Ingrese su sistema operativo:");
         String sistema=dato.nextLine();
         
+        System.out.println();
         System.out.println("Nombre: "+ nombre );
         System.out.println("Apellido: "+ apellido);
         System.out.println("Edad: "+ num);
