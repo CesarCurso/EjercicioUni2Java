@@ -8,6 +8,8 @@ public class ActividadObligatUni2 {
         String nombre=dato.nextLine();
         System.out.println("Ingrese su apellido:");
         String apellido=dato.nextLine();
+        //Empieza el bucle para pedir edad que sea un
+        //numero entre uno y 120 y no sean letras
         String num="";
         boolean entero= false;
         while (entero == false ){
